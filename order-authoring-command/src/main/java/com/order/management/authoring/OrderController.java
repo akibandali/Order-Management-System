@@ -34,8 +34,6 @@ public class OrderController {
         return new ResponseEntity<>(OrderService.getOrdersByStatus(status), HttpStatus.OK);
     }
 
-
-
     @DeleteMapping(path = "/{id}", produces = "application/json")
     public ResponseEntity<OrderRequestDTO> deleteOrder (@PathVariable String id) {
         OrderService.deleteOrderById(id);
