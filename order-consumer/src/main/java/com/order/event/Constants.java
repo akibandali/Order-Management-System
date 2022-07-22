@@ -1,4 +1,4 @@
-package com.event;
+package com.order.event;
 
 public final class Constants {
 private Constants(){}

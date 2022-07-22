@@ -1,13 +1,12 @@
 package com.order.event;
 
- import com.event.OrderStream;
-import com.order.entity.OrderDetail;
+ import com.order.entity.OrderDetail;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.stream.annotation.StreamListener;
 import org.springframework.messaging.Message;
 import org.springframework.stereotype.Component;
 
- import static com.event.Constants.INPUT;
+ import static com.order.event.Constants.INPUT;
 
 @Component
 @Slf4j
